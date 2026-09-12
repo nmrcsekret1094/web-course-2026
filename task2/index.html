@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__inner">
+
+        <a href="#" class="logo">★</a>
+
+        <nav class="nav">
+            <a href="#menu">МЕНЮ</a>
+            <a href="#rewards">БОНУСЫ</a>
+            <a href="#contact">ПОДАРОЧНЫЕ КАРТЫ</a>
+        </nav>
+
+        <div class="header__right">
+            <a href="#contact" class="find">● Найти кофейню</a>
+            <a href="#contact" class="sign">Войти</a>
+            <a href="#menu" class="join">Заказать</a>
+        </div>
+
+        <button class="burger" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+</header>
+
+<main>
+    <section class="order-banner">
+        <div class="container order-banner__inner">
+            <h2>Отличный день для кофе</h2>
+            <a href="#menu" class="outline-button">
+                Сделать заказ
+            </a>
+        </div>
+    </section>
+    <section class="hero container">
+
+        <div class="hero__image">
+            <img
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85"
+                alt="Кофе на столе">
+        </div>
+
+        <div class="hero__content">
+            <h1>Осень пришла.<br>Время любимого кофе.</h1>
+
+            <p>
+                Открой для себя сезонное меню
+                с любимыми вкусами и приятными
+                сюрпризами. Тыква, орехи и
+                ароматный кофе — всё для уютного дня.
+            </p>
+
+            <a href="#menu" class="outline-button">
+                Заказать сейчас
+            </a>
+        </div>
+
+    </section>
+
+    <section class="menu section" id="menu">
+        <div class="container">
+
+            <p class="subtitle">НАШЕ МЕНЮ</p>
+            <h2>Любимые напитки</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    <img
+                        src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
+                        alt="Капучино">
+                    <div class="card__content">
+                        <h3>Капучино</h3>
+                        <p>Нежный кофе с молочной пенкой.</p>
+                        <strong>8 Br</strong>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80"
+                        alt="Латте">
+                    <div class="card__content">
+                        <h3>Латте</h3>
+                        <p>Мягкий вкус кофе и молока.</p>
+                        <strong>10 Br</strong>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80"
+                        alt="Американо">
+                    <div class="card__content">
+                        <h3>Американо</h3>
+                        <p>Классический крепкий кофе.</p>
+                        <strong>6 Br</strong>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="rewards section" id="rewards">
+        <div class="container rewards__grid">
+
+            <div>
+                <p class="subtitle">НАША КОФЕЙНЯ</p>
+                <h2>Кофе для хороших моментов</h2>
+            </div>
+
+            <p>
+                Загляни к нам за любимым напитком.
+                Мы готовим кофе из отборных зёрен
+                и создаём атмосферу, в которую
+                хочется возвращаться.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="container">
+
+            <p class="subtitle">СВЯЖИТЕСЬ С НАМИ</p>
+            <h2>Оставьте сообщение</h2>
+
+            <form class="contact__form">
+
+                <label for="name">Имя</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Ваше имя"
+                    required>
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="example@mail.com"
+                    required>
+
+                <label for="message">Сообщение</label>
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Ваше сообщение"
+                    required></textarea>
+
+                <button type="submit" class="button">
+                    Отправить
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer__inner">
+        <a href="#" class="logo">★</a>
+        <p>© 2026 Star Coffee. Учебный проект.</p>
+    </div>
+</footer>
+
+</body>
+</html>
